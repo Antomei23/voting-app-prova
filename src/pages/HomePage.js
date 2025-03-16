@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles/HomePage.css'; // Stili opzionali
+import '../styles/HomePage.css'; // Stili opzionali
 
 const HomePage = () => {
   const navigate = useNavigate();

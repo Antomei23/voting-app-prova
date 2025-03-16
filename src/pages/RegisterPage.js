@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles/RegisterPage.css'; // Stili opzionali
+import '../styles/RegisterPage.css'; // Stili opzionali
 
 const RegisterPage = () => {
   const [formData, setFormData] = useState({
